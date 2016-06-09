@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>rosauth</name>
+  <version>0.1.0</version>
+  <description>Server Side tools for Authorization and Authentication of ROS Clients using Ethereum</description>
+
+  <maintainer email="garycorn90@gmail.com">Gary Cornelius</maintainer>
+  <author email="garycorn90@gmail.com">Gary Cornelius</author>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>libssl-dev</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>rostest</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>rospy</run_depend>
+</package>
